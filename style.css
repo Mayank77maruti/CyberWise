@@ -1,13 +1,17 @@
  * {
     margin: 0;
     padding: 0;
-    bix-sizing: border-box;
+    box-sizing: border-box;
     font-family: 'Gilroy';
  }
 
  html , body {
     height:100%;
     width:100%;
+ }
+
+ #main{
+    color: black;
  }
  
  #page1{
@@ -17,5 +21,17 @@
  }
 
  #page1 h1{
-    padding-top: 20vh;
+    padding-top: 11vh;
+    text-decoration: wavy;
+ }
+
+ #page2{
+    min-height:100vh;
+    position:relative;
+    width:100%;
+ }
+
+ #page1 h2{
+    padding-top: 5vh;
+    text-decoration: wavy;
  }
