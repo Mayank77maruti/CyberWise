@@ -1,37 +1,73 @@
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Gilroy';
- }
 
- html , body {
-    height:100%;
-    width:100%;
- }
+body {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /* background-image: linear-gradient(to right, #010101, #201f2d, #393756, #535183, #6e6db3, #8a71bb, #a675c1, #c279c4, #ca6c9b, #c36878, #b1685d, #99694c); */
+    padding-left: 30px;
+    /* background-color: #020102; */
+    background-image: linear-gradient(to right, #171516, #2f2b2f, #47444b, #5d5e69, #737b88, #727b87, #707b87, #6f7b86, #575e66, #404248, #28292c, #111111);
+}
 
- #main{
-    color: black;
- }
- 
- #page1{
-    min-height:100vh;
-    position:relative;
-    width:100%;
- }
+/* Style the headers */
+h1 {
+    color: #333;
+    font-size: 24px;
+}
 
- #page1 h1{
-    padding-top: 11vh;
-    text-decoration: wavy;
- }
+h2 {
+    color: #666;
+    font-size: 18px;
+}
 
- #page2{
-    min-height:100vh;
-    position:relative;
-    width:100%;
- }
+/* Style the paragraphs */
+p {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+}
 
- #page1 h2{
-    padding-top: 5vh;
-    text-decoration: wavy;
- }
+/* Add some spacing between sections */
+div {
+    margin-bottom: 20px;
+}
+
+/* Add some basic styling to the pages */
+#page1 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #8ea4b1;
+}
+
+#page2 {
+    background-color: #e1e1e1;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #8ea4b1;
+}
+
+#page3 {
+    background-color: #d1d1d1;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #8ea4b1;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform : translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
