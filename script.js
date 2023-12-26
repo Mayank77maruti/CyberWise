@@ -11,3 +11,8 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements =document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
+$(document).ready(function(){
+    $('.faq-item .question').click(function(){
+        $(this).next('.answer').toggleClass('show');
+    });
+});
