@@ -5,8 +5,8 @@
 .navbar{
    background: rgb(10, 10, 10);
    font-family: calibri;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 0vw;
+   padding-left: 0vw;
 }
 
 .navdiv{
@@ -31,6 +31,6 @@ li a{
     color:white;
     font-size: 18px;
     font-weight: bold;
-    margin-right:25px;
+    margin-right:3vw;
 }
 
