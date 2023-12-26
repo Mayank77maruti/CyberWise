@@ -52,7 +52,7 @@ li a{
     left: 0 !important;
   }
   .menu__btn {
-    position: fixed;
+    position: absolute;
     top: 8dvh;
     right: 5dvh;
     width: 26px;
@@ -79,7 +79,7 @@ li a{
     top: 8px;
   }
   .menu__box {
-    z-index: 1000;
+    z-index: 10;
     display: block;
     position: fixed;
     top: 0;
@@ -107,4 +107,3 @@ li a{
     background-color: #CFD8DC;
   }
   
-
