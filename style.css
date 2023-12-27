@@ -1,7 +1,7 @@
 body {
     padding: 20px;
     font-family: Arial, sans-serif;
-    color: #fff;
+    color: #07031c;
     background-image: url(background.jpg);
     background-size: cover; /* Ensures the background image covers the entire container */
     background-attachment: fixed; /* Prevents the background image from scrolling with the content */
